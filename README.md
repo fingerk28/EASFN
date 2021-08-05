@@ -17,7 +17,7 @@
 
 
 ### Architecture
-![image](https://github.com/fingerk28/EASFN/blob/master/pic/architecture.png)
+![image](https://github.com/fingerk28/EASFN/blob/main/pic/architecture.png)
 
 
 
@@ -162,10 +162,10 @@ $ python3 TestDeasfn.py --dataset=GPE
 ### Visulization
 
 ##### Comparative visualization of EASFN and two models (PIW[2] and WiSPPN[1])
-![image](https://github.com/fingerk28/EASFN/blob/master/pic/comparison.png)
+![image](https://github.com/fingerk28/EASFN/blob/main/pic/comparison.png)
 
 ##### Some positive cases of EASFN on our two benchmarks
-![image](https://github.com/fingerk28/EASFN/blob/master/pic/demo.png)
+![image](https://github.com/fingerk28/EASFN/blob/main/pic/demo.png)
 
 ##### Comparative GIF images of EASFN and two models (PIW[2] and WiSPPN[1]) for each action
 <table>
@@ -177,27 +177,27 @@ $ python3 TestDeasfn.py --dataset=GPE
    </tr>
     <tr>
         <td align="center">Walk</td>
-        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/master/pic/walk.gif"></td>
-        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/master/pic/walk_PIW.gif"></td>
-        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/master/pic/walk_wisppn.gif"></td>
+        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/main/pic/walk.gif"></td>
+        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/main/pic/walk_PIW.gif"></td>
+        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/main/pic/walk_wisppn.gif"></td>
     </tr>
     <tr>
         <td align="center">Wave</td>
-        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/master/pic/wave.gif"></td>
-        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/master/pic/wave_PIW.gif"></td>
-        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/master/pic/wave_wisppn.gif"></td>
+        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/main/pic/wave.gif"></td>
+        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/main/pic/wave_PIW.gif"></td>
+        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/main/pic/wave_wisppn.gif"></td>
     </tr>
     <tr>
          <td align="center">Jump</td>
-        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/master/pic/jump.gif"></td>
-        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/master/pic/jump_PIW.gif"></td>
-        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/master/pic/jump_wisppn.gif"></td>
+        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/main/pic/jump.gif"></td>
+        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/main/pic/jump_PIW.gif"></td>
+        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/main/pic/jump_wisppn.gif"></td>
    </tr>
     <tr>
         <td align="center">Run</td>
-        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/master/pic/run.gif"></td>
-        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/master/pic/run_PIW.gif"></td>
-        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/master/pic/run_wisppn.gif"></td>
+        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/main/pic/run.gif"></td>
+        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/main/pic/run_PIW.gif"></td>
+        <td align="center"><img src="https://github.com/fingerk28/EASFN/blob/main/pic/run_wisppn.gif"></td>
     </tr>
 </table>
 
@@ -206,18 +206,18 @@ $ python3 TestDeasfn.py --dataset=GPE
 ##### Comparative visualization of EASFN and camera-based method(Openpose)
 From this comparison, we can easily observe that DEASFN is better than the camera-based method in *dark environment*.  Under poor illumination, **Openpose** is likely to loss some keypoints, such as wrist, ankle, and so forth. However, **EASFN** can correctly return all keypoints.
 
-![image](https://github.com/fingerk28/EASFN/blob/master/pic/InTheDark.png)
+![image](https://github.com/fingerk28/EASFN/blob/main/pic/InTheDark.png)
 
 
 ### Result
 
 ##### PCK curve of each model:
 
-![image](https://github.com/fingerk28/EASFN/blob/master/pic/curve.png)
+![image](https://github.com/fingerk28/EASFN/blob/main/pic/curve.png)
 
 ##### PCK of DEASFN on each joint:
 
-![image](https://github.com/fingerk28/EASFN/blob/master/pic/histogram.jpg)
+![image](https://github.com/fingerk28/EASFN/blob/main/pic/histogram.jpg)
 
 * **Comparisons on the proposed benchmarks:**
 
