@@ -100,7 +100,7 @@ $ git clone https://github.com/fingerk28/EASFN.git
 > create the virtual enciorment
 
 ````sh
-$ cd DEASFN/
+$ cd EASFN/
 $ python3 -m venv env
 ````
 > activate the virtual environment
@@ -133,7 +133,7 @@ Please make sure that all four zipfiles in `EASFN/dataset/SPE` or `EASFN/dataset
 
 * **unzip** the dataset ( You can substitute **GPE** for **SPE**)
 ````sh
-$ cd DEASFN/dataset/SPE
+$ cd EASFN/dataset/SPE
 $ chmod +x SPE.sh
 $ ./SPE.sh
 ````
@@ -171,7 +171,7 @@ $ python3 TestDeasfn.py --dataset=GPE
 <table>
     <tr>
         <td align="center"></td> 
-        <td align="center">DEASFN</td> 
+        <td align="center">EASFN</td> 
         <td align="center">PIW</td>
         <td align="center">WiSPPN</td>
    </tr>
@@ -204,7 +204,7 @@ $ python3 TestDeasfn.py --dataset=GPE
 
 
 ##### Comparative visualization of EASFN and camera-based method(Openpose)
-From this comparison, we can easily observe that DEASFN is better than the camera-based method in *dark environment*.  Under poor illumination, **Openpose** is likely to loss some keypoints, such as wrist, ankle, and so forth. However, **EASFN** can correctly return all keypoints.
+From this comparison, we can easily observe that EASFN is better than the camera-based method in *dark environment*.  Under poor illumination, **Openpose** is likely to loss some keypoints, such as wrist, ankle, and so forth. However, **EASFN** can correctly return all keypoints.
 
 ![image](https://github.com/fingerk28/EASFN/blob/main/pic/InTheDark.png)
 
@@ -215,7 +215,7 @@ From this comparison, we can easily observe that DEASFN is better than the camer
 
 ![image](https://github.com/fingerk28/EASFN/blob/main/pic/curve.png)
 
-##### PCK of DEASFN on each joint:
+##### PCK of EASFN on each joint:
 
 ![image](https://github.com/fingerk28/EASFN/blob/main/pic/histogram.jpg)
 
@@ -227,7 +227,7 @@ From this comparison, we can easily observe that DEASFN is better than the camer
         <td align="center">Benchmark</td> 
         <td align="center">WiSPPN[1]</td> 
         <td align="center">PIW[2]</td> 
-        <td align="center"><b>DEASFN</b></td> 
+        <td align="center"><b>EASFN</b></td> 
    </tr>
     <tr>
         <td align="center" rowspan='2'>MPJPE</td>
