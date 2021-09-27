@@ -141,20 +141,20 @@ $ ./SPE.sh
 #### Train
 You can adjust the training parameters in `config/args.py`
 ````sh
-$ python3 TrainDeasfn.py--dataset=SPE
+$ python3 train.py--dataset=SPE
 ````
 ```sh
-$ python3 TrainDeasfn.py --dataset=GPE
+$ python3 train.py --dataset=GPE
 ```
 
 #### Test
 
 You can adjust the testing parameters in `config/args.py`
 ````sh
-$ python3 TestDeasfn.py --dataset=SPE   
+$ python3 test.py --dataset=SPE   
 ````
 ```sh
-$ python3 TestDeasfn.py --dataset=GPE
+$ python3 test.py --dataset=GPE
 ```
 
 
